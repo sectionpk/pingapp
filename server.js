@@ -20,8 +20,8 @@ const pingApps = async () => {
   }
 };
 
-// Ping all apps every 5 minutes
-setInterval(pingApps, 2 * 60 * 1000);
+// Ping all apps every 1 minutes
+setInterval(pingApps, 1 * 60 * 1000);
 
 // Initial immediate ping to verify the script works
 pingApps();
